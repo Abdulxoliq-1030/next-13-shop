@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  background-color: #ededed;
+  gap: 2.5rem;
+  .productsWrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 2rem;
+  }
+}
