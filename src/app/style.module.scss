@@ -2,9 +2,20 @@
   display: flex;
   background-color: #ededed;
   gap: 2.5rem;
+  padding: 15px;
   .productsWrap {
     display: grid;
+    height: 96vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 2rem;
   }
+}
+
+.loadingWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 64%;
 }

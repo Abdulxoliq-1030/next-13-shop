@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 23.5%;
+  text-align: center;
+
+  .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+    img {
+      height: 100px;
+      width: 100%;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+  }
+}
